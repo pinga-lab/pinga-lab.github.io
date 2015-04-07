@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PINGA lab</title><link>http://pinga-lab.github.io/</link><description></description><atom:link href="http://pinga-lab.github.io/feeds/oliveira-jr-v-c-v-c-f-barbosa-and-l-uieda.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 01 Jan 2013 00:00:00 -0200</lastBuildDate><item><title>Polynomial equivalent layer</title><link>http://pinga-lab.github.io/papers/paper-polynomial-eqlayer-2013.html</link><description>&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We have developed a new cost-effective method for processing
+large-potential-field data sets via the equivalent-layer technique. In this
+approach, the equivalent layer is divided into a regular grid of
+equivalent-source windows. Inside each window, the physical-property
+distribution is described by a bivariate polynomial. Hence, the
+physical-property distribution within the equivalent layer is assumed to be a
+piecewise polynomial function defined on a set of equivalent-source windows. We
+perform any linear transformation of a large set of data as follows. First, we
+estimate the polynomial coefficients of all equivalent-source windows by using
+a linear regularized inversion. Second, we transform the estimated polynomial
+coefficients of all windows into the physical-property distribution within the
+whole equivalent layer. Finally, we premultiply this distribution by the matrix
+of Green’s functions associated with the desired transformation to obtain the
+transformed data. The regularized inversion deals with a linear system of
+equations with dimensions based on the total number of polynomial coefficients
+within all equivalent-source windows. This contrasts with the classical
+approach of directly estimating the physical-property distribution within the
+equivalent layer, which leads to a system based on the number of data. Because
+the number of data is much larger than the number of polynomial coefficients,
+the proposed polynomial representation of the physical-property distribution
+within an equivalent layer drastically reduces the number of parameters to be
+estimated. By comparing the total number of floating-point operations required
+to estimate an equivalent layer via our method with the classical approach,
+both formulated with Cholesky’s decomposition, we can verify that the
+computation time required for building the linear system and for solving the
+linear inverse problem can be reduced by as many as three and four orders of
+magnitude, respectively. Applications to synthetic and real data show that our
+method performs the standard linear transformations of potential-field data
+accurately.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{oliveira2013,
+    title = {Polynomial equivalent layer},
+    volume = {78},
+    issn = {0016-8033, 1942-2156},
+    doi = {10.1190/geo2012-0196.1},
+    number = {1},
+    journal = {GEOPHYSICS},
+    author = {Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F. and
+        Uieda, Leonardo},
+    month = jan,
+    year = {2013},
+    pages = {G1--G13},
+}
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Oliveira Jr, V. C., V. C. F. Barbosa, and L. Uieda</dc:creator><pubDate>Tue, 01 Jan 2013 00:00:00 -0200</pubDate><guid>tag:pinga-lab.github.io,2013-01-01:papers/paper-polynomial-eqlayer-2013.html</guid></item></channel></rss>

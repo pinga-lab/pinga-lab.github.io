@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PINGA lab</title><link href="http://pinga-lab.github.io/" rel="alternate"></link><link href="http://pinga-lab.github.io/feeds/uieda-l-v-c-oliveira-jr-and-v-c-f-barbosa.atom.xml" rel="self"></link><id>http://pinga-lab.github.io/</id><updated>2014-01-04T00:00:00-02:00</updated><entry><title>Geophysical tutorial: Euler deconvolution of potential-field data</title><link href="http://pinga-lab.github.io/papers/paper-tle-euler-tutorial-2014.html" rel="alternate"></link><updated>2014-01-04T00:00:00-02:00</updated><author><name>Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa</name></author><id>tag:pinga-lab.github.io,2014-01-04:papers/paper-tle-euler-tutorial-2014.html</id><summary type="html">&lt;div class="alert alert-success"&gt;
+This article is also available at the
+&lt;a class="alert-link"
+   href="http://wiki.seg.org/wiki/Euler_deconvolution_of_potential_field_data_%28tutorial%29"&gt;SEG wiki&lt;/a&gt;
+where it can edited and improved.
+&lt;/div&gt;
+
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this tutorial we'll talk about a widely used method of interpretation for
+potential-field data called Euler deconvolution. Our goal is to demonstrate its
+usefulness and, most importantly, call attention to some pitfalls encountered
+in the interpretation of the results. The code and synthetic data required to
+reproduce our results and figures can be found in the accompanying IPython
+notebooks (&lt;a href="http://ipython.org/notebook"&gt;ipython.org/notebook&lt;/a&gt;)
+at &lt;a href="http://dx.doi.org/10.6084/m9.figshare.923450"&gt;dx.doi.org/10.6084/m9.figshare.923450&lt;/a&gt;
+or &lt;a href="https://github.com/pinga-lab/paper-tle-euler-tutorial"&gt;github.com/pinga-lab/paper-tle-euler-tutorial&lt;/a&gt;.
+The notebooks also expand the
+analysis presented here. We encourage you to download the data and try it on
+your software of choice. For this tutorial we'll use the implementation in the
+open-source Python package Fatiando a Terra
+(&lt;a href="http://fatiando.org"&gt;fatiando.org&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{uieda2014,
+    title = {Geophysical tutorial: {Euler} deconvolution of potential-field data},
+    volume = {33},
+    issn = {1070-485X, 1938-3789},
+    doi = {10.1190/tle33040448.1},
+    number = {4},
+    journal = {The Leading Edge},
+    author = {Uieda, Leonardo and Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F.},
+    month = apr,
+    year = {2014},
+    pages = {448--450}
+}
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="OA"></category></entry></feed>

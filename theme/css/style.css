@@ -1,0 +1,127 @@
+body {
+    font-size: 12pt;
+}
+h1 {
+    margin-bottom: 21px;
+}
+h3 {
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+/* The icon list in the about page */
+.icon-link-list li {
+    display: inline;
+}
+.icon-link-list li > a {
+    color: #333;
+}
+.icon-link-list li > a:hover {
+    color: #1A6ECC;
+}
+.icon-link-list {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.navbar-default {
+    background-color: #333;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-brand {
+    padding: 15.5px 15px;
+}
+
+.navbar-brand > img {
+    height: 30px;
+    width: 30px;
+    display: inline;
+    margin: 0px 10px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #CCC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #6F6F6F;
+ }
+
+.list-group-item > i {
+     margin-right: 5px;
+}
+
+.people-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.people-box img.img-circle {
+    width: 100px;
+}
+
+.people-box p {
+    font-size: 14pt;
+}
+
+.people-box h2 {
+    margin-top: 20px;
+}
+
+img.picture {
+    width: 100%;
+    padding-top: 10px;
+}
+
+img.paper-thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+p.paper-date-author {
+    margin-bottom: 20px;
+    font-size: 14pt;
+    font-style: italic;
+}
+
+.article-box {
+    background-color: #fcfcfc;
+}
+
+.article-box  img {
+    width: 100%;
+}
+
+.article-box i {
+    margin-right: 3px;
+}
+
+.article-box p {
+    color: #6F6F6F;
+}
+
+.article-box a {
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+.fa-ul {
+    margin-top: 15px;
+}
+
+.fa-ul > li {
+    margin-bottom: 20px;
+}
+
+.fa-ul > li > a {
+    color: #2C3E50;
+}

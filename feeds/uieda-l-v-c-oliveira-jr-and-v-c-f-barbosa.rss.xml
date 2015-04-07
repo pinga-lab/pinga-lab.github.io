@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PINGA lab</title><link>http://pinga-lab.github.io/</link><description></description><atom:link href="http://pinga-lab.github.io/feeds/uieda-l-v-c-oliveira-jr-and-v-c-f-barbosa.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 04 Jan 2014 00:00:00 -0200</lastBuildDate><item><title>Geophysical tutorial: Euler deconvolution of potential-field data</title><link>http://pinga-lab.github.io/papers/paper-tle-euler-tutorial-2014.html</link><description>&lt;div class="alert alert-success"&gt;
+This article is also available at the
+&lt;a class="alert-link"
+   href="http://wiki.seg.org/wiki/Euler_deconvolution_of_potential_field_data_%28tutorial%29"&gt;SEG wiki&lt;/a&gt;
+where it can edited and improved.
+&lt;/div&gt;
+
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this tutorial we'll talk about a widely used method of interpretation for
+potential-field data called Euler deconvolution. Our goal is to demonstrate its
+usefulness and, most importantly, call attention to some pitfalls encountered
+in the interpretation of the results. The code and synthetic data required to
+reproduce our results and figures can be found in the accompanying IPython
+notebooks (&lt;a href="http://ipython.org/notebook"&gt;ipython.org/notebook&lt;/a&gt;)
+at &lt;a href="http://dx.doi.org/10.6084/m9.figshare.923450"&gt;dx.doi.org/10.6084/m9.figshare.923450&lt;/a&gt;
+or &lt;a href="https://github.com/pinga-lab/paper-tle-euler-tutorial"&gt;github.com/pinga-lab/paper-tle-euler-tutorial&lt;/a&gt;.
+The notebooks also expand the
+analysis presented here. We encourage you to download the data and try it on
+your software of choice. For this tutorial we'll use the implementation in the
+open-source Python package Fatiando a Terra
+(&lt;a href="http://fatiando.org"&gt;fatiando.org&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{uieda2014,
+    title = {Geophysical tutorial: {Euler} deconvolution of potential-field data},
+    volume = {33},
+    issn = {1070-485X, 1938-3789},
+    doi = {10.1190/tle33040448.1},
+    number = {4},
+    journal = {The Leading Edge},
+    author = {Uieda, Leonardo and Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F.},
+    month = apr,
+    year = {2014},
+    pages = {448--450}
+}
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa</dc:creator><pubDate>Sat, 04 Jan 2014 00:00:00 -0200</pubDate><guid>tag:pinga-lab.github.io,2014-01-04:papers/paper-tle-euler-tutorial-2014.html</guid><category>OA</category></item></channel></rss>

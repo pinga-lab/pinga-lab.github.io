@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PINGA lab</title><link href="http://pinga-lab.github.io/" rel="alternate"></link><link href="http://pinga-lab.github.io/feeds/all-en.atom.xml" rel="self"></link><id>http://pinga-lab.github.io/</id><updated>2015-01-04T00:00:00-02:00</updated><entry><title>Estimation of the total magnetization direction of approximately spherical bodies</title><link href="http://pinga-lab.github.io/papers/paper-mag-dir-2015.html" rel="alternate"></link><updated>2015-01-04T00:00:00-02:00</updated><author><name>Oliveira Jr, V. C., D. P. Sales, V. C. F. Barbosa, and L. Uieda</name></author><id>tag:pinga-lab.github.io,2015-01-04:papers/paper-mag-dir-2015.html</id><summary type="html">&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We have developed a fast total-field anomaly inversion to estimate the
+magnetization direction of multiple sources with approximately spherical shape
+and known centres. Our method can be applied to interpret multiple sources with
+different magnetization directions. It neither requires the prior computation
+of any transformation like reduction to the pole nor the use of regularly
+spaced data on a horizontal grid. The method contains flexibility to be
+implemented as a linear or non-linear inverse problem, which results,
+respectively, in a least-squares or robust estimate of the components of the
+magnetization vector of the sources. Applications to synthetic data show the
+robustness of our method against interfering anomalies and errors in the
+location of the sources' centre. Besides, we show the feasibility of applying
+the upward continuation to interpret non-spherical sources. Applications to
+field data over the Goiás Alkaline Province (GAP), Brazil, show the good
+performance of our method in estimating geological meaningful magnetization
+directions. The results obtained for a region of the GAP, near from the
+alkaline complex of Diorama, suggest the presence of non-outcropping sources
+marked by strong remanent magnetization with inclination and declination close
+to -70.35° and -19.81°, respectively. This estimated magnetization direction
+leads to predominantly positive reduced-to-the-pole anomalies, even for other
+region of the GAP, in the alkaline complex of Montes Claros de Goiás. These
+results show that the non-outcropping sources near from the alkaline complex of
+Diorama have almost the same magnetization direction of that ones in the
+alkaline complex of Montes Claros de Goiás, strongly suggesting that these
+sources have emplaced the crust almost within the same geological time
+interval.&lt;/p&gt;
+&lt;h2&gt;Review&lt;/h2&gt;
+&lt;p&gt;This paper has undergone open peer-review. Follow the discussion from
+&lt;a href="http://www.nonlin-processes-geophys-discuss.net/1/1465/2014/npgd-1-1465-2014-discussion.html"&gt;the publishers site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{oliveira2014,
+    title = {Estimation of the total magnetization direction of approximately spherical bodies},
+    volume = {1},
+    issn = {2198-5634},
+    doi = {10.5194/npgd-1-1465-2014},
+    number = {2},
+    journal = {Nonlin. Processes Geophys. Discuss.},
+    author = {Oliveira Jr., V. C. and Sales, D. P. and Barbosa, V. C. F. and Uieda, L.},
+    month = sep,
+    year = {2014},
+    pages = {1465--1507},
+}
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="OA"></category><category term="review"></category></entry><entry><title>Imaging iron ore from the Quadrilátero Ferrífero (Brazil) using geophysical inversion and drill hole data</title><link href="http://pinga-lab.github.io/papers/paper-quadrilatero-2014.html" rel="alternate"></link><updated>2014-01-09T00:00:00-02:00</updated><author><name>Carlos, D. U., L. Uieda, and V. C. F. Barbosa</name></author><id>tag:pinga-lab.github.io,2014-01-09:papers/paper-quadrilatero-2014.html</id><summary type="html">&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The Quadrilátero Ferrífero in southeastern Brazil hosts one of the largest
+concentrations of lateritic iron ore deposits in the world. Our study area is
+over the southern flank of the Gandarela syncline which is one of the regional
+synclines of the Quadrilátero Ferrífero. The Gandarela syncline is considered
+the Brazilian megastructure with the highest perspectives for iron ore
+exploration. Most of the iron-ore deposits from the Quadrilátero Ferrífero are
+non-outcropping bodies hosted in the oxidized, metamorphosed and
+heterogeneously deformed banded iron formations. Therefore, the assessment of
+the 3D geometry of the iron-ore body is of the utmost importance for estimating
+reserves and production development planning. We carried out a quantitative
+interpretation of the iron-ore deposit of the southern flank of the Gandarela
+syncline using a 3D inversion of airborne gravity-gradient data to estimate the
+shape of the iron-ore mineralization. The retrieved body is characterized by a
+high-density zone associated with the northeast-elongated iron formation. The
+thickness and the width of the retrieved iron-ore body vary along its strike
+increasing southwestward. The presence of a large volume of iron ore in the
+southwest portion of the study area may be due to the hinge zone of the
+Gandarela syncline, which is the zone of maximum compression. Our estimated
+iron-ore mass reveals variable dip directions. In the southernmost, central and
+northernmost portions of the study area, the estimated iron body dips,
+respectively, inwards, vertically and outwards with respect to the syncline
+axis. Previous geological mapping indicated continuous mineralization. However,
+our result suggests a quasi-continuous iron-ore body. In the central part of
+the study area, the estimated iron-ore body is segmented into two parts. This
+breakup may be related to the northwest-trending faults, which are
+perpendicular to the northeast-trending axis of the Gandarela syncline. Our
+estimated iron-ore mass agrees reasonably well with the information provided
+from the lithologic logging data of drill holes. In this geophysical study, the
+estimated iron-ore reserves are approximately 3 billion tons.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{carlos2014,
+    title = {Imaging iron ore from the {Quadrilátero} {Ferrífero} ({Brazil})
+        using geophysical inversion and drill hole data},
+    volume = {61},
+    issn = {0169-1368},
+    doi = {10.1016/j.oregeorev.2014.02.011},
+    journal = {Ore Geology Reviews},
+    author = {Carlos, Dionísio U. and Uieda, Leonardo and Barbosa,
+        Valeria C. F.},
+    month = sep,
+    year = {2014},
+    pages = {268--285}
+}
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Geophysical tutorial: Euler deconvolution of potential-field data</title><link href="http://pinga-lab.github.io/papers/paper-tle-euler-tutorial-2014.html" rel="alternate"></link><updated>2014-01-04T00:00:00-02:00</updated><author><name>Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa</name></author><id>tag:pinga-lab.github.io,2014-01-04:papers/paper-tle-euler-tutorial-2014.html</id><summary type="html">&lt;div class="alert alert-success"&gt;
+This article is also available at the
+&lt;a class="alert-link"
+   href="http://wiki.seg.org/wiki/Euler_deconvolution_of_potential_field_data_%28tutorial%29"&gt;SEG wiki&lt;/a&gt;
+where it can edited and improved.
+&lt;/div&gt;
+
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this tutorial we'll talk about a widely used method of interpretation for
+potential-field data called Euler deconvolution. Our goal is to demonstrate its
+usefulness and, most importantly, call attention to some pitfalls encountered
+in the interpretation of the results. The code and synthetic data required to
+reproduce our results and figures can be found in the accompanying IPython
+notebooks (&lt;a href="http://ipython.org/notebook"&gt;ipython.org/notebook&lt;/a&gt;)
+at &lt;a href="http://dx.doi.org/10.6084/m9.figshare.923450"&gt;dx.doi.org/10.6084/m9.figshare.923450&lt;/a&gt;
+or &lt;a href="https://github.com/pinga-lab/paper-tle-euler-tutorial"&gt;github.com/pinga-lab/paper-tle-euler-tutorial&lt;/a&gt;.
+The notebooks also expand the
+analysis presented here. We encourage you to download the data and try it on
+your software of choice. For this tutorial we'll use the implementation in the
+open-source Python package Fatiando a Terra
+(&lt;a href="http://fatiando.org"&gt;fatiando.org&lt;/a&gt;).&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{uieda2014,
+    title = {Geophysical tutorial: {Euler} deconvolution of potential-field data},
+    volume = {33},
+    issn = {1070-485X, 1938-3789},
+    doi = {10.1190/tle33040448.1},
+    number = {4},
+    journal = {The Leading Edge},
+    author = {Uieda, Leonardo and Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F.},
+    month = apr,
+    year = {2014},
+    pages = {448--450}
+}
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="OA"></category></entry><entry><title>André Luis Albuquerque dos Reis</title><link href="http://pinga-lab.github.io/people/andre.html" rel="alternate"></link><updated>2014-01-03T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2014-01-03:people/andre.html</id><summary type="html">&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Inversão de dados para a determinação da distribuição de magnetização de
+amostras de rocha.&lt;/p&gt;</summary></entry><entry><title>Marlon Cabrera Hidalgo Gato</title><link href="http://pinga-lab.github.io/people/marlon.html" rel="alternate"></link><updated>2014-01-02T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2014-01-02:people/marlon.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação em Geofisica pela Universidade de São Paulo(2010). Tem
+experiência na área de Geociências, com ênfase em Geofísica.&lt;/p&gt;
+&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Realce de anomalias gravimétricas e magnéticas.&lt;/p&gt;</summary></entry><entry><title>Victor do Couto Pereira</title><link href="http://pinga-lab.github.io/people/victor.html" rel="alternate"></link><updated>2014-01-02T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2014-01-02:people/victor.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação em Geofísica pela Universidade Federal Fluminense (2012).
+Atualmente é geofísico - Lasa Prospecções S.A.. Tem experiência na área de
+Geofísica, com ênfase em métodos não-sísmicos.&lt;/p&gt;
+&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Modelagem gravimétrica do embasamento e dos limites crustais da Elevação do
+Ceará no Atlântico equatorial.&lt;/p&gt;</summary></entry><entry><title>Dionísio Uendro Carlos</title><link href="http://pinga-lab.github.io/people/carlos.html" rel="alternate"></link><updated>2013-03-29T00:00:00-03:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2013-03-29:people/carlos.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação de Bacharelado em Geofísica e Mestrado em Geofísica Nuclear
+pela Universidade de São Paulo (IAG/USP) respectivamente em 2002 e 2006.
+Desenvolveu doutorado em inversão de dados de aerogradiometria gravimétrica no
+Observatório Nacional - ON/MCTI/Colorado School of Mines. Foi pesquisador
+visitante do Departamento de Geofísica da Colorado School of Mines, Golden, CO
+(EUA) de 2011 a 2012.Tem experiência na área de Geociências, com ênfase em
+Geofísica Nuclear e Metodos Potenciais. Construiu os primeiros blocos
+radioativos para calibração de gamaespectrometros aerotransportados e
+terrestres da América do Sul. Atualmente trabalha como geofísico de exploração
+de ferrosos na VALE com geofísica aerotransportada de 3D- FTG (Full Tensor
+Gradiometry), magnetometria e perfilagem geofisica.&lt;/p&gt;
+&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Aplicação de Processamento e Inversão Geofísica 3D de Dados de Aerogradiometria
+da Gravidade na Estimação da Estrutura do Minério de Ferro no Siclinal
+Gandarela - Quadrilátero Ferrífero - Minas Gerais.&lt;/p&gt;</summary></entry><entry><title>Estimating the nature and the horizontal and vertical positions of 3D magnetic sources using Euler deconvolution</title><link href="http://pinga-lab.github.io/papers/paper-euler-plateau-2013.html" rel="alternate"></link><updated>2013-01-12T00:00:00-02:00</updated><author><name>Melo, F. F., V. C. F. Barbosa, L. Uieda, V. C. Oliveira Jr, and J. B. C. Silva</name></author><id>tag:pinga-lab.github.io,2013-01-12:papers/paper-euler-plateau-2013.html</id><summary type="html">&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We have developed a new method that drastically reduces the number of the
+source location estimates in Euler deconvolution to only one per anomaly. Our
+method employs the analytical estimators of the base level and of the
+horizontal and vertical source positions in Euler deconvolution as a function
+of the x- and y-coordinates of the observations. By assuming any tentative
+structural index (defining the geometry of the sources), our method
+automatically locates plateaus, on the maps of the horizontal coordinate
+estimates, indicating consistent estimates that are very close to the true
+corresponding coordinates. These plateaus are located in the neighborhood of
+the highest values of the anomaly and show a contrasting behavior with those
+estimates that form inclined planes at the anomaly borders. The plateaus are
+automatically located on the maps of the horizontal coordinate estimates by
+fitting a first-degree polynomial to these estimates in a moving-window scheme
+spanning all estimates. The positions where the angular coefficient estimates
+are closest to zero identify the plateaus of the horizontal coordinate
+estimates. The sample means of these horizontal coordinate estimates are the
+best horizontal location estimates. After mapping each plateau, our method
+takes as the best structural index the one that yields the minimum correlation
+between the total-field anomaly and the estimated base level over each plateau.
+By using the estimated structural index for each plateau, our approach extracts
+the vertical coordinate estimates over the corresponding plateau. The sample
+means of these estimates are the best depth location estimates in our method.
+When applied to synthetic data, our method yielded good results if the bodies
+produce weak- and mid-interfering anomalies. A test on real data over
+intrusions in the Goiás Alkaline Province, Brazil, retrieved sphere-like
+sources suggesting 3D bodies.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{melo2013,
+    title = {Estimating the nature and the horizontal and vertical positions
+        of 3D magnetic sources using {Euler} deconvolution},
+    volume = {78},
+    issn = {0016-8033, 1942-2156},
+    doi = {10.1190/geo2012-0515.1},
+    number = {6},
+    journal = {GEOPHYSICS},
+    author = {Melo, Felipe F. and Barbosa, Valeria C. F. and Uieda,
+        Leonardo and Oliveira, Vanderlei C. and Silva, João B. C.},
+    month = oct,
+    year = {2013},
+    pages = {J87--J98}
+}
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Polynomial equivalent layer</title><link href="http://pinga-lab.github.io/papers/paper-polynomial-eqlayer-2013.html" rel="alternate"></link><updated>2013-01-01T00:00:00-02:00</updated><author><name>Oliveira Jr, V. C., V. C. F. Barbosa, and L. Uieda</name></author><id>tag:pinga-lab.github.io,2013-01-01:papers/paper-polynomial-eqlayer-2013.html</id><summary type="html">&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We have developed a new cost-effective method for processing
+large-potential-field data sets via the equivalent-layer technique. In this
+approach, the equivalent layer is divided into a regular grid of
+equivalent-source windows. Inside each window, the physical-property
+distribution is described by a bivariate polynomial. Hence, the
+physical-property distribution within the equivalent layer is assumed to be a
+piecewise polynomial function defined on a set of equivalent-source windows. We
+perform any linear transformation of a large set of data as follows. First, we
+estimate the polynomial coefficients of all equivalent-source windows by using
+a linear regularized inversion. Second, we transform the estimated polynomial
+coefficients of all windows into the physical-property distribution within the
+whole equivalent layer. Finally, we premultiply this distribution by the matrix
+of Green’s functions associated with the desired transformation to obtain the
+transformed data. The regularized inversion deals with a linear system of
+equations with dimensions based on the total number of polynomial coefficients
+within all equivalent-source windows. This contrasts with the classical
+approach of directly estimating the physical-property distribution within the
+equivalent layer, which leads to a system based on the number of data. Because
+the number of data is much larger than the number of polynomial coefficients,
+the proposed polynomial representation of the physical-property distribution
+within an equivalent layer drastically reduces the number of parameters to be
+estimated. By comparing the total number of floating-point operations required
+to estimate an equivalent layer via our method with the classical approach,
+both formulated with Cholesky’s decomposition, we can verify that the
+computation time required for building the linear system and for solving the
+linear inverse problem can be reduced by as many as three and four orders of
+magnitude, respectively. Applications to synthetic and real data show that our
+method performs the standard linear transformations of potential-field data
+accurately.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{oliveira2013,
+    title = {Polynomial equivalent layer},
+    volume = {78},
+    issn = {0016-8033, 1942-2156},
+    doi = {10.1190/geo2012-0196.1},
+    number = {1},
+    journal = {GEOPHYSICS},
+    author = {Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F. and
+        Uieda, Leonardo},
+    month = jan,
+    year = {2013},
+    pages = {G1--G13},
+}
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Felipe Ferreira de Melo</title><link href="http://pinga-lab.github.io/people/melo.html" rel="alternate"></link><updated>2012-03-29T00:00:00-03:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2012-03-29:people/melo.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação em Geofísica pela Universidade Federal Fluminense (2009) e
+mestrado em Geofísica pelo Observatório Nacional (2012). Atualmente é geofísico
+na Geoimaging. Tem experiência na área de Geociências, com ênfase em Geofísica,
+atuando principalmente nos seguintes temas: métodos potenciais, modelagem e
+migração sísmica.&lt;/p&gt;
+&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Estimando a natureza e as posições horizontais e verticais de fontes 3D usando
+a deconvolução de Euler.&lt;/p&gt;</summary></entry><entry><title>Fillipe Claudio Lopes Siqueira</title><link href="http://pinga-lab.github.io/people/siqueira.html" rel="alternate"></link><updated>2012-03-29T00:00:00-03:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2012-03-29:people/siqueira.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação em Física pela Universidade Federal Fluminense (2009) e
+mestrado em Geofísica pelo Observatório Nacional (2012). Tem experiência na
+área de Física e Geofísica com ênfase em Geomagnetismo, atuando principalmente
+no seguintes temas: observatórios magnéticos, processamento de dados
+geomagnéticos e estudo de tempestades magnéticas.&lt;/p&gt;
+&lt;h2&gt;Thesis&lt;/h2&gt;
+&lt;p&gt;Método de filtragem do ruído de dados de gradiometria gravimétrica fundamentado
+na teoria do potencial.&lt;/p&gt;</summary></entry><entry><title>Robust 3D gravity gradient inversion by planting anomalous densities</title><link href="http://pinga-lab.github.io/papers/paper-planting-anomalous-densities-2012.html" rel="alternate"></link><updated>2012-01-07T00:00:00-02:00</updated><author><name>Uieda, L. and V.C.F. Barbosa</name></author><id>tag:pinga-lab.github.io,2012-01-07:papers/paper-planting-anomalous-densities-2012.html</id><summary type="html">&lt;h2&gt;Extra supplement&lt;/h2&gt;
+&lt;p&gt;Animation of the groth algorithm:
+&lt;a href="http://dx.doi.org/10.6084/m9.figshare.91469"&gt;10.6084/m9.figshare.91469&lt;/a&gt;&lt;/p&gt;
+&lt;div class="embed-responsive embed-responsive-16by9"&gt;
+&lt;iframe src="http://wl.figshare.com/articles/91469/embed?show_title=0"
+width="568" height="481" frameborder="0"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We have developed a new gravity gradient inversion method for estimating a 3D
+density-contrast distribution defined on a grid of rectangular prisms. Our
+method consists of an iterative algorithm that does not require the solution of
+an equation system. Instead, the solution grows systematically around
+user-specified prismatic elements, called “seeds,” with given density
+contrasts. Each seed can be assigned a different density-contrast value,
+allowing the interpretation of multiple sources with different density
+contrasts and that produce interfering signals. In real world scenarios, some
+sources might not be targeted for the interpretation. Thus, we developed a
+robust procedure that neither requires the isolation of the signal of the
+targeted sources prior to the inversion nor requires substantial prior
+information about the nontargeted sources. In our iterative algorithm, the
+estimated sources grow by the accretion of prisms in the periphery of the
+current estimate. In addition, only the columns of the sensitivity matrix
+corresponding to the prisms in the periphery of the current estimate are needed
+for the computations. Therefore, the individual columns of the sensitivity
+matrix can be calculated on demand and deleted after an accretion takes place,
+greatly reducing the demand for computer memory and processing time. Tests on
+synthetic data show the ability of our method to correctly recover the geometry
+of the targeted sources, even when interfering signals produced by nontargeted
+sources are present. Inverting the data from an airborne gravity gradiometry
+survey flown over the iron ore province of Quadrilátero Ferrífero, southeastern
+Brazil, we estimated a compact iron ore body that is in agreement with geologic
+information and previous interpretations.&lt;/p&gt;
+&lt;h2&gt;Bibtex&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;@article{uieda2012,
+    title = {Robust 3D gravity gradient inversion by planting anomalous densities},
+    volume = {77},
+    issn = {00168033},
+    doi = {10.1190/geo2011-0388.1},
+    number = {4},
+    journal = {Geophysics},
+    author = {Uieda, Leonardo and Barbosa, Valéria C. F.},
+    year = {2012},
+    pages = {G55--G66},
+}
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Valéria C. F. Barbosa</title><link href="http://pinga-lab.github.io/people/barbosa.html" rel="alternate"></link><updated>2010-01-01T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2010-01-01:people/barbosa.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Possui graduação em Geologia pela Universidade Federal Rural do Rio de Janeiro
+(1986), mestrado (1991) e doutorado (1998) em Geofísica pela Universidade
+Federal do Pará. Pesquisadora do Laboratório Nacional de Computação Científica
+de 1998 a 2006. Atualmente é pesquisadora do Observatório Nacional. Desde 2005
+atua como Editora Associada da revista GEOPHYSICS da Society of Explotation
+Geophysicists(SEG). Desde 2013 atua como Editora Associada da revista Pure and
+Applied Geophysics. Atua como consultor da European Science Foundation. Em 2002
+recebeu o prêmio Honorable Mention na categoria SEG s Best Paper in GEOPHYSICS.
+Em 2004 recebeu o prêmio "SEG recognizes outstanding GEOPHYSICS reviewers". Tem
+experiência na área de Geociências, com ênfase em Geofísica Aplicada, atuando
+principalmente nos seguintes temas: Problema Inverso, Interpretação de dados
+gravimétricos e magnéticos.&lt;/p&gt;</summary></entry><entry><title>Leonardo Uieda</title><link href="http://pinga-lab.github.io/people/uieda.html" rel="alternate"></link><updated>2010-01-01T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2010-01-01:people/uieda.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;I'm a geophysicist working mainly on inverse problems in gravity and magnetics.&lt;/p&gt;
+&lt;p&gt;Starting February 2014,
+I'm working as Professor of Geophysics at the
+&lt;a href="http://www.uerj.br"&gt;Universidade do Estado do Rio de Janeiro&lt;/a&gt;,
+Brazil.
+I teach the "Intro to Geophysics" courses to Geology students,
+&lt;a href="http://www.leouieda.com/teaching/"&gt;among others&lt;/a&gt;.
+A typical day at work usually involves a lot of
+&lt;a href="https://github.com/leouieda"&gt;open-source software development&lt;/a&gt;,
+for both research and teaching.
+My language of choice is &lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt;.
+I'm one of the founders and main developer of
+&lt;a href="http://www.fatiando.org"&gt;Fatiando a Terra&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the spirit of open-science,
+I share all of the research and
+teaching material online under permissive licenses.
+You'll find links to source code, images, lessons, etc, scattered around
+my &lt;a href="http://www.leouieda.com"&gt;personal website&lt;/a&gt;
+(look for the &lt;i class="fa fa-github-square fa-fw"&gt;&lt;/i&gt; icon).&lt;/p&gt;
+&lt;p&gt;Follow me on &lt;a href="https://twitter.com/leouieda"&gt;Twitter (@leouieda)&lt;/a&gt; for updates on
+teaching and research, random things from the world of academia, etc.&lt;/p&gt;</summary></entry><entry><title>Vanderlei C. Oliveira Jr.</title><link href="http://pinga-lab.github.io/people/oliveira-jr.html" rel="alternate"></link><updated>2009-01-01T00:00:00-02:00</updated><author><name>Leonardo Uieda</name></author><id>tag:pinga-lab.github.io,2009-01-01:people/oliveira-jr.html</id><summary type="html">&lt;h2&gt;About&lt;/h2&gt;
+&lt;p&gt;Researcher at the department of Geophysics of Observatório Nacional, Brazil&lt;/p&gt;
+&lt;h2&gt;Research&lt;/h2&gt;
+&lt;p&gt;I am mainly interested in Potential Fields, Inverse Problems and Numerical
+Methods.&lt;/p&gt;
+&lt;h2&gt;Education&lt;/h2&gt;
+&lt;p&gt;After completing my undergraduate degree in Geophysics at the Instituto de
+Astronomia, Geofísica e Ciências Atmosféricas da Universidade de São Paulo
+(IAG-USP), I did a master's degree in Geophysics at Observatório Nacional
+(&lt;a href="http://www.on.br/conteudo/dppg_e_iniciacao/dppg/ferramenta_teses/teses/GEOFISICA/%5B262_36-45_C%5Dvanderlei_dissertacao.pdf"&gt;thesis – in
+portuguese&lt;/a&gt;),
+where I subsequently obtained a PhD's degree.
+Nowadays I am a researcher at the department of Geophysics of Observatório
+Nacional.&lt;/p&gt;</summary></entry></feed>
