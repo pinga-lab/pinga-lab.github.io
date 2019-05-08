@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Leonardo Uieda"/>
+            <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
+    <title>    Geophysical tutorial: Euler deconvolution of potential-field data | PINGA lab
+</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Include the Source Sans Pro Google fonts CSS -->
+    <link rel="stylesheet" href="/css/sourcesanspro/sourcesanspro.css">
+    <!--Include the Font Awesome and Academicons CSS-->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <!-- Include MathJax from the CDN -->
+    <script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38125837-6', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid menu text-center">
+    <div class="col-md-3 menu-brand">
+        <a href="/">
+                <img src="/images/pinga-logo.png"></img>
+            <strong>PINGA</strong>lab
+        </a>
+    </div>
+    <div class="col-md-6 menu-list">
+        <ul>
+                <li><a href="/news">News</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="/papers">Papers</a></li>
+                <li><a href="/thesis">Theses</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="container">
+
+
+    <h1>
+        Geophysical tutorial: Euler deconvolution of potential-field data
+    </h1>
+        <p class="pub-date-author">
+                (2014)
+                            <a href="/people/uieda.html">Leonardo Uieda</a>,                 <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>,                 <a href="/people/barbosa.html">Valéria C. F. Barbosa</a>
+        </p>
+    <hr>
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Info</h2>
+
+        <ul class="list-group">
+                    <li class="list-group-item active">
+                            <i class="ai ai-open-access fa-fw" title="Open-access article"></i>
+
+                        Open-Access
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-book fa-fw" title="Journal name"></i>
+
+                        Journal: The Leading Edge
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-github-square fa-fw" title="Github repository"></i>
+
+                        Source code:
+                        <a href="https://github.com/pinga-lab/paper-tle-euler-tutorial">pinga-lab/paper-tle-euler-tutorial</a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-paperclip fa-fw" title="Supplementary material"></i>
+
+                        Supplement:
+                        <a href="https://doi.org/10.6084/m9.figshare.923450">10.6084/m9.figshare.923450</a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-external-link fa-fw" title="DOI link to publisher"></i>
+
+                        doi: <a href="https://doi.org/10.1190/tle33040448.1">10.1190/tle33040448.1</a>
+                    </li>
+        </ul>
+
+            <h2>Article Level Metrics</h2>
+            <div class="alm">
+                <div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1190/tle33040448.1"  data-condensed="true" class="altmetric-embed"></div>
+            </div>
+            <div class="alm">
+                <span class="__dimensions_badge_embed__" data-doi="10.1190/tle33040448.1" data-legend="always"></span>
+                <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+            </div>
+
+            <h2>Citation</h2>
+            <p>Uieda, L., V. C. Oliveira Jr, and V. C. F. Barbosa (2014), Geophysical tutorial: Euler deconvolution of potential-field data, The Leading Edge, 33(4), 448-450, doi:10.1190/tle33040448.1</p>
+
+
+
+    </div>
+
+
+    <div class="col-md-8">
+            <div class="alert alert-success">
+This article is also available at the
+<a class="alert-link"
+   href="http://wiki.seg.org/wiki/Euler_deconvolution_of_potential_field_data_%28tutorial%29">SEG wiki</a>
+where it can edited and improved.
+</div>
+
+<h2 id="about">About</h2>
+<p>This article is part of the
+<a href="http://wiki.seg.org/wiki/Geophysical_tutorials">Geophysical Tutorials</a>
+section in <a href="http://library.seg.org/journal/leedff">The Leading Edge</a>,
+started by Matt Hall of <a href="http://agilegeoscience.com/">Agile Geoscience</a>.
+All tutorials are Open-Access and include open-source code examples.
+Read the
+<a href="https://doi.org/10.1190/tle35020190.1">February 2016 tutorial</a> by Matt
+for an introduction to the tutorial series
+and what you need to know to get started running the code in them.</p>
+<h2 id="open-source-implementation">Open-source implementation</h2>
+<p>This article uses the Euler deconvolution implemented in
+<a href="http://www.fatiando.org">Fatiando a Terra</a>,
+an open-source Python library.
+See the repository
+<a href="https://github.com/pinga-lab/paper-tle-euler-tutorial">pinga-lab/paper-tle-euler-tutorial</a>
+for the source code that accompanies the article
+and extra material.</p>
+<h2 id="abstract">Abstract</h2>
+<p>In this tutorial we'll talk about a widely used method of interpretation for
+potential-field data called Euler deconvolution. Our goal is to demonstrate its
+usefulness and, most importantly, call attention to some pitfalls encountered
+in the interpretation of the results. The code and synthetic data required to
+reproduce our results and figures can be found in the accompanying IPython
+notebooks (<a href="http://ipython.org/notebook">ipython.org/notebook</a>)
+at <a href="https://doi.org/10.6084/m9.figshare.923450">dx.doi.org/10.6084/m9.figshare.923450</a>
+or <a href="https://github.com/pinga-lab/paper-tle-euler-tutorial">github.com/pinga-lab/paper-tle-euler-tutorial</a>.
+The notebooks also expand the
+analysis presented here. We encourage you to download the data and try it on
+your software of choice. For this tutorial we'll use the implementation in the
+open-source Python package Fatiando a Terra
+(<a href="http://fatiando.org">fatiando.org</a>).</p>
+<h2 id="bibtex">Bibtex</h2>
+<div class="codehilite"><pre><span></span>@article{uieda2014,
+    title = {Geophysical tutorial: {Euler} deconvolution of potential-field data},
+    volume = {33},
+    issn = {1070-485X, 1938-3789},
+    doi = {10.1190/tle33040448.1},
+    number = {4},
+    journal = {The Leading Edge},
+    author = {Uieda, Leonardo and Oliveira Jr., Vanderlei C. and Barbosa, Valéria C. F.},
+    month = apr,
+    year = {2014},
+    pages = {448--450}
+}
+</pre></div>
+    </div>
+</div>
+
+
+</div>
+
+
+    <footer>
+<div class="container">
+
+    <p class="text-center">
+        Hosted on <a href="https://pages.github.com/">Github Pages</a>.
+        The source code to build this site is available at
+        <a href="https://github.com/pinga-lab/website">pinga-lab/website</a>.
+        </br>
+        Built using <a href="http://urubu.jandecaluwe.com/">Urubu</a>
+        and <a href="http://getbootstrap.com/">Bootstrap</a> with
+        icons by <a href="http://fontawesome.io/">Font Awesome</a>
+        and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+        </br>
+        Except were noted, all content is available under the
+        <a rel="license"
+           href="http://creativecommons.org/licenses/by/4.0/">CC-BY License</a>.
+        </br>
+        This website uses
+        <a href="https://analytics.google.com">Google Analytics</a>
+        to monitor visitor statistics.
+    </p>
+
+</div>    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- For the altmetric badge in articles -->
+    <script type='text/javascript'
+     src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Leonardo Uieda"/>
+            <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
+    <title>    Processamento e Inversão de Dados de Campos Potenciais: Novas Abordagens | PINGA lab
+</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Include the Source Sans Pro Google fonts CSS -->
+    <link rel="stylesheet" href="/css/sourcesanspro/sourcesanspro.css">
+    <!--Include the Font Awesome and Academicons CSS-->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <!-- Include MathJax from the CDN -->
+    <script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38125837-6', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid menu text-center">
+    <div class="col-md-3 menu-brand">
+        <a href="/">
+                <img src="/images/pinga-logo.png"></img>
+            <strong>PINGA</strong>lab
+        </a>
+    </div>
+    <div class="col-md-6 menu-list">
+        <ul>
+                <li><a href="/news">News</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="/papers">Papers</a></li>
+                <li><a href="/thesis">Theses</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="container">
+
+
+    <h1>
+            <em>PhD thesis</em>:
+        Processamento e Inversão de Dados de Campos Potenciais: Novas Abordagens
+    </h1>
+        <p class="pub-date-author">
+                (2013)
+                            <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>
+        </p>
+    <hr>
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Info</h2>
+
+        <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa fa-calendar fa-fw"></i> 2011-2013
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-university fa-fw"></i> Observatório Nacional
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
+                                        <a href="/people/barbosa.html">Valéria C. F. Barbosa</a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-info-circle fa-fw" title="Additional information"></i>
+
+                        More info:
+                        <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=314927">Sucupira platform</a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-file-pdf-o fa-fw" title="Paper PDF"></i>
+
+                        PDF:
+                        <a href="/pdf/oliveira-jr-phd.pdf">oliveira-jr-phd.pdf</a>
+                    </li>
+        </ul>
+
+
+
+
+            <h2>Related research</h2>
+
+
+                <h3>Papers</h3>
+
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
+                        <a href="/papers/paper-radial3d-gradients-2013.html">3-D radial gravity gradient inversion</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
+                        <a href="/papers/paper-polynomial-eqlayer-2013.html">Polynomial equivalent layer</a>
+                    </li>
+                </ul>
+
+
+
+    </div>
+
+
+    <div class="col-md-8">
+            <h2 id="abstract">Abstract</h2>
+<p>This thesis has developed two new methodologies for processing and interpreting
+potential field data. The first one is the Polynomial Equivalent Layer, which
+is a new cost-effective method for processing large potential-field data sets
+via the equivalent-layer technique.  In this approach, the equivalent layer is
+divided into a regular grid of equivalent-source windows. Inside each window,
+the physical-property distribution is described by a bivariate polynomial.
+While the classical approach directly estimates the physical-property
+distribution within the equivalent layer, the method Polynomial Equivalent
+Layer deals with a linear system of equations with dimension based on the total
+number of polynomial coefficients within all equivalent-source windows. This
+new method drastically reduces the number of parameters to be estimated in the
+inverse problem if compared with the classical approach. By comparing the total
+number of floating-point operations required to estimate an equivalent layer
+via our method with the classical approach, both formulated with Cholesky's
+decomposition, we verify that the computation time required for building the
+linear system and for solving the linear inverse problem can be reduced by as
+many as three and four orders of magnitude, respectively.  Applications to both
+synthetic and real data show that our method performs the standard linear
+transformations of potential-field data accurately.  The second new methodology
+developed in this thesis is a non-linear method for inverting gravity-gradient
+data to estimate the shape of an isolated 3-D geological body located in
+subsurface. This method assumes the knowledge about the depth to the top and
+density contrast of the source. The geologic body is approximated by an
+ensemble of vertically juxtaposed 3-D right prisms, each one with known
+thickness and density contrast. All prisms have a polygonal horizontal
+cross-section whose vertices are equally spaced from 0<sup>o</sup> to
+360<sup>o</sup> and have their horizontal locations described in polar
+coordinates referred to an origin inside the polygon. The method recovers the
+geometry of the geological body by estimating the radii of all vertices and the
+horizontal Cartesian coordinates of all origins defining the horizontal
+cross-sections of all prisms.  This problem is formulated as a constrained
+non-linear optimization and we also used a preconditioning strategy in order to
+improve the convergence. Although the proposed inverse method can obtain a
+stable estimate that fits the observed data, different estimates with different
+maximum depths can produce equally acceptable data fits. To deal with this
+ambiguity, we produced a set of estimates with different maximum depths and
+used a criterion based on the L1 norm of the residuals and the estimated volume
+for choosing the estimate with optimum maximum depth. This criterion allows the
+analysis of the in-depth resolution of the observed gravity-gradient data. We
+confirmed the ability of our method to recover the source geometry entirely if
+the data have sufficient in-depth resolution. If not, our method is able to
+recover only the upper part of the source. By inverting the data from a survey
+over the Vinton salt dome (Louisiana, USA) with a density contrast of 0.55
+g/cm<sup>3</sup>, we estimated a massive cap rock whose maximum depth attains
+460 ± 10 m and its shallowest portion is elongated in the northeast-southwest
+direction, according to the direction of the main geological fault in the study
+area.</p>
+    </div>
+</div>
+
+
+</div>
+
+
+    <footer>
+<div class="container">
+
+    <p class="text-center">
+        Hosted on <a href="https://pages.github.com/">Github Pages</a>.
+        The source code to build this site is available at
+        <a href="https://github.com/pinga-lab/website">pinga-lab/website</a>.
+        </br>
+        Built using <a href="http://urubu.jandecaluwe.com/">Urubu</a>
+        and <a href="http://getbootstrap.com/">Bootstrap</a> with
+        icons by <a href="http://fontawesome.io/">Font Awesome</a>
+        and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+        </br>
+        Except were noted, all content is available under the
+        <a rel="license"
+           href="http://creativecommons.org/licenses/by/4.0/">CC-BY License</a>.
+        </br>
+        This website uses
+        <a href="https://analytics.google.com">Google Analytics</a>
+        to monitor visitor statistics.
+    </p>
+
+</div>    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- For the altmetric badge in articles -->
+    <script type='text/javascript'
+     src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+</body>
+</html>

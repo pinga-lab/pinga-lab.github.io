@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Leonardo Uieda"/>
+            <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
+    <title>    Inversão Gravimétrica Radial por Camadas para a Reconstrução de Corpos Geológicos 3D | PINGA lab
+</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Include the Source Sans Pro Google fonts CSS -->
+    <link rel="stylesheet" href="/css/sourcesanspro/sourcesanspro.css">
+    <!--Include the Font Awesome and Academicons CSS-->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <!-- Include MathJax from the CDN -->
+    <script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38125837-6', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid menu text-center">
+    <div class="col-md-3 menu-brand">
+        <a href="/">
+                <img src="/images/pinga-logo.png"></img>
+            <strong>PINGA</strong>lab
+        </a>
+    </div>
+    <div class="col-md-6 menu-list">
+        <ul>
+                <li><a href="/news">News</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="/papers">Papers</a></li>
+                <li><a href="/thesis">Theses</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="container">
+
+
+    <h1>
+            <em>MSc thesis</em>:
+        Inversão Gravimétrica Radial por Camadas para a Reconstrução de Corpos Geológicos 3D
+    </h1>
+        <p class="pub-date-author">
+                (2010)
+                            <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>
+        </p>
+    <hr>
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Info</h2>
+
+        <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fa fa-calendar fa-fw"></i> 2009-2010
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-university fa-fw"></i> Observatório Nacional
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fa fa-graduation-cap fa-fw"></i> Advisor:
+                                        <a href="/people/barbosa.html">Valéria C. F. Barbosa</a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-file-pdf-o fa-fw" title="Paper PDF"></i>
+
+                        PDF:
+                        <a href="/pdf/oliveira-jr-msc.pdf">oliveira-jr-msc.pdf</a>
+                    </li>
+        </ul>
+
+
+
+
+            <h2>Related research</h2>
+
+
+                <h3>Papers</h3>
+
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
+                        <a href="/papers/paper-radial3d-2011.html">Source geometry estimation using the mass excess criterion to constrain 3-D radial inversion of gravity data</a>
+                    </li>
+                </ul>
+
+
+
+    </div>
+
+
+    <div class="col-md-8">
+            <h2 id="abstract">Abstract</h2>
+<p>We present a gravity-inversion method for estimating the geometry of 3D
+sources, assuming prior knowledge about its top and density contrast. The
+subsurface region containing the geologic sources is discretized into an
+ensemble of 3D vertical, juxtaposed prisms in the vertical direction of a
+right-handed coordinate system. The prisms’ thicknesses and density contrasts
+are known, but their horizontal cross-sections are described by an unknown
+polygon. The horizontal coordinates of the polygon vertices approximately
+represent the edges of horizontal depth slices of the 3D geologic source. The
+polygon vertices of each prism are described by polar coordinates with an
+unknown origin within the prism. Our method estimates the radii associated with
+the vertices of each polygon for a fixed number of equally spaced angles from
+0<sup>o</sup> to 360<sup>o</sup> and the horizontal Cartesian coordinates of
+the unknown origin.  By estimating these parameters from gravity data, we
+retrieve a set of vertically stacked prisms with polygonal horizontal sections
+that represents a set of juxtaposed horizontal depth slices of the estimated
+source and approximates the 3D source's geometry. To obtain stable estimates we
+impose constraints on the source shape. The judicious use of first-order
+Tikhonov regularization on either all or a few parameters allows estimating
+both vertical and inclined sources whose shapes can be isometric or
+anisometric. The estimated solution, despite being stable and fitting the data,
+will depend on the maximum depth assumed for the set of juxtaposed 3D prisms.
+To reduce the class of possible solutions compatible with the gravity anomaly
+and the constraints, we use the criterion based on data-misfit measure and the
+estimated total-anomalous mass computed along successive inversions that use
+different tentative maximum depths for the set of assumed juxtaposed 3D prisms.
+In this criterion we plotted the curve of estimated total-anomalous mass w
+versus data-misfit measures for the range of different tentative maximum depths
+considered. The tentative value for the maximum depth producing the smallest
+value of data-misfit measure in the curve w x s is the best estimate of the
+true (or minimum) depth to the bottom of the source, depending on whether the
+true source produces a gravity anomaly that is able (or unable) to resolve it.
+This criterion was deduced theoretically from Gauss’ theorem. Our tests with
+synthetic data shows that the correct depth-to-bottom estimate of the source is
+obtained if the smallest value of s on the curve w x s is well-defined;
+otherwise this criterion provides the lower bound estimate of the bottom's
+depth of the source. Our tests using synthetic data show that the method
+efficiently recovers source geometries dipping at different angles. We applied
+our method to real data from the Redenção granite (Brazil) and from the
+Matsitama intrusive complex (Botswana). In the first case, our method estimates
+a granite with nearly conical shape and with maximum bottom depth of 7.0 ± 0.5
+km. In the second case, our method retrieves a dipping intrusion with variable
+dips and strikes and with maximum bottom depth of 8.0 ± 0.5 km.</p>
+    </div>
+</div>
+
+
+</div>
+
+
+    <footer>
+<div class="container">
+
+    <p class="text-center">
+        Hosted on <a href="https://pages.github.com/">Github Pages</a>.
+        The source code to build this site is available at
+        <a href="https://github.com/pinga-lab/website">pinga-lab/website</a>.
+        </br>
+        Built using <a href="http://urubu.jandecaluwe.com/">Urubu</a>
+        and <a href="http://getbootstrap.com/">Bootstrap</a> with
+        icons by <a href="http://fontawesome.io/">Font Awesome</a>
+        and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+        </br>
+        Except were noted, all content is available under the
+        <a rel="license"
+           href="http://creativecommons.org/licenses/by/4.0/">CC-BY License</a>.
+        </br>
+        This website uses
+        <a href="https://analytics.google.com">Google Analytics</a>
+        to monitor visitor statistics.
+    </p>
+
+</div>    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- For the altmetric badge in articles -->
+    <script type='text/javascript'
+     src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+</body>
+</html>
