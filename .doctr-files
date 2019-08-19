@@ -1,4 +1,5 @@
 ./CNAME
+./css/academicons/css/academicons.css
 ./css/academicons/css/academicons.min.css
 ./css/academicons/fonts/academicons.eot
 ./css/academicons/fonts/academicons.svg
@@ -32,8 +33,14 @@
 ./css/sourcesanspro/SourceSansPro-Regular.ttf
 ./css/sourcesanspro/sourcesanspro.css
 ./css/style.css
+./funding/cnpq-pq-oliveira-jr-2017.html
+./funding/cnpq-universal-2014.html
+./funding/index.html
 ./images/difference-disturbance-free-air.png
 ./images/favicon.png
+./images/funding/capes.svg
+./images/funding/cnpq.svg
+./images/funding/faperj.svg
 ./images/nmo-tutorial-application.png
 ./images/pic/andre.jpg
 ./images/pic/barbosa.jpg
