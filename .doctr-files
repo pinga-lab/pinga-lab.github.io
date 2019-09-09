@@ -75,7 +75,6 @@
 ./index.html
 ./js/bootstrap.min.js
 ./js/jquery.min.js
-./news/index.html
 ./papers/fast-tesseroid-inversion-moon.html
 ./papers/grav-isostatic-2D.html
 ./papers/index.html
@@ -151,7 +150,6 @@
 ./people/victor.html
 ./people/victortxa.html
 ./people/vital.html
-./research/index.html
 ./thesis/andre-msc.html
 ./thesis/carlos-phd.html
 ./thesis/daiana-msc.html
