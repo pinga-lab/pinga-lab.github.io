@@ -75,6 +75,7 @@
 ./index.html
 ./js/bootstrap.min.js
 ./js/jquery.min.js
+./papers/fast-mag-inv-relief.html
 ./papers/fast-tesseroid-inversion-moon.html
 ./papers/grav-isostatic-2D.html
 ./papers/index.html

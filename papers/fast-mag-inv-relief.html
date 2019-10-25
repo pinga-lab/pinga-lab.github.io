@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Leonardo Uieda"/>
             <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
-    <title>    Marlon C. Hidalgo-Gato | PINGA lab
+    <title>    Fast 3D magnetic inversion of a surface relief in the space domain | PINGA lab
 </title>
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -58,19 +58,15 @@
 <div class="container">
 
     <ol class="breadcrumb">
-        <li><a href="/">Home</a></li><li><a href="/people/">People in the lab</a></li></ol>
+        <li><a href="/">Home</a></li><li><a href="/papers/">Papers</a></li></ol>
 
-    <div class="row">
-        <div class="col-xs-4 col-sm-3 col-md-2">
-                <img class="img-circle picture" src="/images/pic/marlon.jpg"></img>
-        </div>
-        <div class="col-xs-8 col-sm-9 col-md-10">
-            <h1>Marlon C. Hidalgo-Gato</h1>
-            <h2>
-                <em>PhD Student</em>
-            </h2>
-        </div>
-    </div>
+    <h1>
+        Fast 3D magnetic inversion of a surface relief in the space domain
+    </h1>
+        <p class="pub-date-author">
+                (2019)
+                            <a href="/people/marlon.html">Marlon C. Hidalgo-Gato</a>,                 <a href="/people/barbosa.html">Valéria C. F. Barbosa</a>
+        </p>
     <hr>
 
 
@@ -81,34 +77,29 @@
         <h2>Info</h2>
 
         <ul class="fa-ul">
-        <li>
-                <i class="fa-li fa fa-calendar fa-fw" title="Duration"></i>
+                    <li>
+                            <i class="fa-li fa fa-book fa-fw" title="Journal name"></i>
 
-            2014-Present
-        </li>
-        <li>
-                <i class="fa-li fa fa-university fa-fw" title="Institution"></i>
+                        Journal: Geophysics
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-external-link fa-fw" title="DOI link to publisher"></i>
 
-            Observatório Nacional
-        </li>
-        <li>
-                <i class="fa-li fa fa-map-marker fa-fw" title="Location"></i>
-
-            Rio de Janeiro, Brazil
-        </li>
-        <li>
-                <i class="fa-li fa fa-graduation-cap fa-fw" title="Advisor"></i>
-
-            Advisor:                 <a href="/people/barbosa.html">Valéria C. F. Barbosa</a>
-        </li>
-        <li>
-                <i class="fa-li ai ai-lattes fa-fw" title="Currículo Lattes"></i>
-
-            <a href="http://lattes.cnpq.br/4057248251995225">Currículo Lattes</a>
-        </li>
+                        doi: <a href="https://doi.org/10.1190/geo2018-0712.1">10.1190/geo2018-0712.1</a>
+                    </li>
         </ul>
 
+            <h2>Article Level Metrics</h2>
+            <div class="alm">
+                <div data-badge-details="right" data-badge-type="medium-donut" data-doi="10.1190/geo2018-0712.1"  data-condensed="true" class="altmetric-embed"></div>
+            </div>
+            <div class="alm">
+                <span class="__dimensions_badge_embed__" data-doi="10.1190/geo2018-0712.1" data-legend="always"></span>
+                <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+            </div>
 
+            <h2>Citation</h2>
+            <p>Hidalgo-Gato, M., and V. Barbosa (2019), Fast 3D magnetic inversion of a surface relief in the space domain, Geophysics, 84(5), J57-J67, doi:10.1190/geo2018-0712.1.</p>
 
 
 
@@ -116,38 +107,32 @@
 
 
     <div class="col-md-8">
-
-                <h2 id="about">About</h2>
-<p>Possui graduação em Geofisica pela Universidade de São Paulo(2010). Tem
-experiência na área de Geociências, com ênfase em Geofísica.</p>
-
-
-        <h2>Latest papers</h2>
-        <ul class="fa-ul">
-                <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
-                    <a href="/papers/fast-mag-inv-relief.html">Fast 3D magnetic inversion of a surface relief in the space domain</a>
-                    (2019)
-                </li>
-                <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
-                    <a href="/papers/monogenic-signal-python.html">The monogenic signal of potential-field data: A Python implementation</a>
-                    (2017)
-                </li>
-                <li><i class="fa-li fa fa-file-text-o fa-fw"></i>
-                    <a href="/papers/paper-monogenic-2015.html">Edge detection of potential-field sources using scale-space monogenic signal: Fundamental principles</a>
-                    (2015)
-                </li>
-        </ul>
-
-
-
-        <h2>Theses authored</h2>
-        <ul class="fa-ul">
-                <li><i class="fa-li fa fa-book fa-fw"></i>
-                    <a href="/thesis/marlon-msc.html">Realce e detecção de feições magnéticas através do sinal monogênico no espaço-escala de Poisson: Fundamentos e princípios</a>
-                    (2015)
-                </li>
-        </ul>
-
+            <h2 id="abstract">Abstract</h2>
+<p>We have developed a fast 3D regularized magnetic inversion algorithm for
+depth-to-basement estimation based on an efficient way to compute the total-field
+anomaly produced by an arbitrary interface separating nonmagnetic sediments from
+a magnetic basement. We approximate the basement layer by a grid of 3D vertical
+prisms juxtaposed in the horizontal directions, in which the prisms’ tops represent
+the depths to the magnetic basement. To compute the total-field anomaly produced
+by the basement relief, the 3D integral of the total-field anomaly of a prism is
+simplified by a 1D integral along the prism thickness, which in turn is multiplied
+by the horizontal area of the prism. The 1D integral is calculated numerically
+using the Gauss-Legendre quadrature produced by dipoles located along the vertical
+axis passing through the prism center. This new magnetic forward modeling overcomes
+one of the main drawbacks of the nonlinear inverse problem for estimating the
+basement depths from magnetic data: the intense computational cost to calculate
+the total-field anomaly of prisms. The new sensitivity matrix is simpler and
+computationally faster than the one using classic magnetic forward modeling based
+on the 3D integrals of a set of prisms that parameterize the earth’s subsurface.
+To speed up the inversion at each iteration, we used the Gauss-Newton approximation
+for the Hessian matrix keeping the main diagonal only and adding the first-order
+Tikhonov regularization function. The large sparseness of the Hessian matrix allows
+us to construct and solve a linear system iteratively that is faster and demands
+less memory than the classic nonlinear inversion with prism-based modeling using
+3D integrals. We successfully inverted the total-field anomaly of a simulated
+smoothing basement relief with a constant magnetization vector. Tests on field
+data from a portion of the Pará-Maranhão Basin, Brazil, retrieved a first
+depth-to-basement estimate that was geologically plausible.</p>
     </div>
 </div>
 
