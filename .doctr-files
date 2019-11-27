@@ -36,6 +36,9 @@
 ./funding/cnpq-pq-oliveira-jr-2017.html
 ./funding/cnpq-universal-2014.html
 ./funding/index.html
+./images/carousel/fast-mag-inv-relief.jpg
+./images/carousel/isostatic-grav-2D.jpg
+./images/carousel/magnetic-sensor-hall.jpg
 ./images/carousel/monogenic-signal.jpg
 ./images/carousel/tesseroid-variable-density.jpg
 ./images/carousel/verde.jpg
@@ -156,7 +159,6 @@
 ./thesis/andre-msc.html
 ./thesis/carlos-phd.html
 ./thesis/daiana-msc.html
-./thesis/hallam-phd.html
 ./thesis/index.html
 ./thesis/kristoffer-phd.html
 ./thesis/marcela-msc.html
