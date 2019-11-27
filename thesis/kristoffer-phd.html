@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Leonardo Uieda"/>
+            <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
+    <title>    Modelagem regional do campo de gravidade utilizando pontos de massa em coordenadas geodésicas | PINGA lab
+</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Include the Source Sans Pro Google fonts CSS -->
+    <link rel="stylesheet" href="/css/sourcesanspro/sourcesanspro.css">
+    <!--Include the Font Awesome and Academicons CSS-->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <!-- Include MathJax from the CDN -->
+    <script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38125837-6', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+<div class="container-fluid menu text-center">
+    <div class="col-md-3 menu-brand">
+        <a href="/">
+                <img src="/images/pinga-logo.png"></img>
+            <strong>PINGA</strong>lab
+        </a>
+    </div>
+    <div class="col-md-6 menu-list">
+        <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="/papers">Papers</a></li>
+                <li><a href="/funding">Funding</a></li>
+                <li><a href="/thesis">Theses</a></li>
+                <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="container">
+
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li><li><a href="/thesis/">Theses defended</a></li></ol>
+
+    <h1>
+            <em>PhD thesis</em>:
+        Modelagem regional do campo de gravidade utilizando pontos de massa em coordenadas geodésicas
+    </h1>
+        <p class="pub-date-author">
+                (2019)
+                            <a href="/people/kristoffer.html">Kristoffer A. Teixeira Hallam</a>
+        </p>
+    <hr>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Info</h2>
+
+        <ul class="fa-ul">
+                    <li>
+                            <i class="fa-li fa fa-calendar fa-fw" title="Duration"></i>
+
+                        2016-2019
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-university fa-fw" title="Institution"></i>
+
+                        Observatório Nacional
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-graduation-cap fa-fw" title="Advisor"></i>
+
+                        Advisor:                 <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-info-circle fa-fw" title="Additional information"></i>
+
+                        More info:
+                        <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=7744201">Sucupira platform</a>
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-file-pdf-o fa-fw" title="Paper PDF"></i>
+
+                        PDF:
+                        <a href="/pdf/kristoffer-phd.pdf" target="_blank" type="application/pdf">kristoffer-phd.pdf</a>
+                    </li>
+        </ul>
+
+
+
+
+
+    </div>
+
+
+    <div class="col-md-8">
+            <h2 id="resumo">Resumo</h2>
+<p>Nesta tese proponho estratégias para a representação do campo de gravidade
+regional via técnica dos pontos de massa, no sistema de coordenadas geodésicas. Esta
+abordagem presume que o campo pode ser descrito pela soma de duas componentes.
+A primeira contém os longos comprimentos de onda da parcela gravitacional do
+campo de gravidade e é definida por um modelo de referência global. A segunda é
+definida pelos resı́duos entre dados observados e aqueles preditos pelo modelo
+global sobre ou próximo à superfı́cie da Terra. Desta forma, esta componente residual
+contém apenas os curtos comprimentos de onda da parcela gravitacional do campo de
+gravidade que não está contida no modelo global. A modelagem desta componente
+residual permite refinar o modelo global sobre uma determinada região e possibilita
+a representação de feições locais do campo de gravidade. Neste trabalho, esta
+modelagem é feita via técnica dos pontos de massa com posição fixa. Esta técnica
+consiste em aproximar a componente residual pelo efeito gravitacional produzido
+por um conjunto de pontos de massa com posição fixa. Para tanto, é necessário
+(i) a posição e, em seguida, (ii) a distribuição de massa destas fontes pontuais.
+Para estimar a posição das fontes, apresento um método baseado em Statistical
+Experimental Design (SED). Para estimar a distribuição de massa das fontes,
+apresento dois métodos. O primeiro consiste em estimar a distribuição de massa de um
+conjunto de camadas de pontos de massa com diferentes profundidades de forma a
+minimizar a norma L2 dos resı́duos. Já o segundo consiste em estimar a distribuição
+de massa em uma única camada de pontos de massa de forma a minimizar a norma
+L1 dos resı́duos. Testes com dados sintéticos mostram que o método baseado em
+SED é capaz de estimar a posição ótima dos pontos de massa mesmo para situações
+em que a distribuição dos dados observados é muito irregular. Isso representa uma
+vantagem sobre os demais métodos existentes na literatura, que são limitados ao
+caso em que os dados observados estão dispostos sobre uma grade regular. Os
+resultados também mostram que, em comparação ao método baseado na norma L2, o
+método baseado na norma L1 reproduz as feições de curto comprimento de onda do
+campo de gravidade de forma mais acurada. Com base nos resultados com dados
+sintéticos, os métodos foram aplicados a dados reais, contendo duas configurações
+diferentes. A primeira corresponde aos dados da Rede Gravimétrica Fundamental
+Brasileira (RGFB) composto por nós bem localizados e esparsos por todo o Brasil.
+A segunda corresponde aos dados de gravimetria terrestre levantados por todo o
+território do estado de Goiás (GO). Em ambos os casos, os métodos foram capazes
+de incluir a componente residual nos mapas globais. No entanto, devido à maior
+densidade de dados e seu confinamento dentro da região indicada, os testes com os
+dados reais de GO apresentaram um desempenho melhor com relação à visualização
+da inclusão nos mapas globais.</p>
+<h2 id="abstract">Abstract</h2>
+<p>We propose new strategies for the regional gravity field representation via
+point-mass technique in the geodetic coordinate system. This approach makes the
+assumption that the field can be described by the sum of two components. The first
+one contains the long wavelength of the gravitational portion of the gravity field
+and is defined by a global reference model. Meanwhile, the second one is defined by
+the residuals between the observed and the predicted data from the global model
+evaluated on or above the surface of the Earth. This residual component contains
+the short wavelength of the gravitational portion of the gravity field only, which is
+not present on the global model. The modeling of this residual component allows
+the refinement of the global model over a certain region and enables the gravity field
+representation of local features. In the present work, we apply the fixed position
+point-mass technique for gravity modeling. This technique consists on approximating
+the residual component to the gravitational effect produced by an ensemble of
+fixed position point-masses. To do so, one needs (i) the position and (ii) the mass
+distribution of the point-sources. We estimate the sources positions accordingly
+to a new method we present based on Statistical Experimental Design (SED). We
+present two different methods for the estimation of the mass distribution of the
+sources. The first one consists on estimating the mass distribution of an ensemble
+of point-mass layers positioned at different depths in order to minimize the L2 norm
+of the residuals. The second one, on the other hand, consists on estimating the
+mass distribution of a single point-mass layer in order to minimize the L1 norm of
+the residuals. Synthetic data tests show that the method based on SED is capable
+of estimating the optimal position for the point-masses even for irregular data
+distribution configurations. This represents an advantage over other existing methods
+described in literature which are limited to regular grid data. The results also show
+that the L1 norm based method reproduces the short wavelength of the gravity field
+more accurately than the L2 norm based method. The methods were applied to real
+data based on the results obtained by the synthetic data tests. The real data were
+divided into two different spatial configuration sets. The first set was defined by the
+Brasilian Fundamental Gravity Network (BFGN) data composed by well localized
+and sparse nodes all over Brazil. The second comprised the land gravity data
+surveyed within the Goiás (GO) state territory. In both cases, the results show that
+the residual component was successfully included in the global maps. However, the
+test using the real data from the state of GO showed a better performance for the
+visualization of the residual inclusion on the maps. This can be justified by the
+higher density and territorial confinement which are characteristics of the data.</p>
+    </div>
+</div>
+
+
+</div>
+
+
+    <footer>
+<div class="container">
+
+    <p class="text-center">
+        Hosted on <a href="https://pages.github.com/">Github Pages</a>.
+        The source code to build this site is available at
+        <a href="https://github.com/pinga-lab/website">pinga-lab/website</a>.
+        </br>
+        Built using <a href="http://urubu.jandecaluwe.com/">Urubu</a>
+        and <a href="http://getbootstrap.com/">Bootstrap</a> with
+        icons by <a href="http://fontawesome.io/">Font Awesome</a>
+        and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+        </br>
+        Except were noted, all content is available under the
+        <a rel="license"
+           href="http://creativecommons.org/licenses/by/4.0/">CC-BY License</a>.
+        </br>
+        This website uses
+        <a href="https://analytics.google.com">Google Analytics</a>
+        to monitor visitor statistics.
+    </p>
+
+</div>    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- For the altmetric badge in articles -->
+    <script type='text/javascript'
+     src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+</body>
+</html>
