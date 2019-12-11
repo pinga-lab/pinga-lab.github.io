@@ -37,11 +37,10 @@
 ./funding/cnpq-universal-2014.html
 ./funding/index.html
 ./images/carousel/fast-mag-inv-relief.jpg
+./images/carousel/hall-sensor-materials.jpg
 ./images/carousel/isostatic-grav-2D.jpg
 ./images/carousel/magnetic-sensor-hall.jpg
-./images/carousel/monogenic-signal.jpg
 ./images/carousel/tesseroid-variable-density.jpg
-./images/carousel/verde.jpg
 ./images/difference-disturbance-free-air.png
 ./images/favicon.png
 ./images/funding/capes.svg
@@ -100,6 +99,7 @@
 ./papers/paper-radial3d-gradients-2013.html
 ./papers/paper-tesseroids-2016.html
 ./papers/paper-tle-euler-tutorial-2014.html
+./papers/sensor-hall-materials.html
 ./papers/struct-index-euler.html
 ./papers/tesseroid-variable-density.html
 ./papers/use-the-disturbance.html
