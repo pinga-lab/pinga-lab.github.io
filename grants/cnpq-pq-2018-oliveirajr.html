@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Leonardo Uieda"/>
             <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
-    <title>    Estimativa da direção da magnetização total de corpos 3D aproximadamente esféricos | PINGA lab
+    <title>    Camada equivalente aplicada ao processamento de dados magnéticos | PINGA lab
 </title>
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -46,7 +46,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/people">People</a></li>
                 <li><a href="/papers">Papers</a></li>
-                <li><a href="/funding">Funding</a></li>
+                <li><a href="/grants">Grants & Projects</a></li>
                 <li><a href="/thesis">Theses</a></li>
                 <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
         </ul>
@@ -58,13 +58,16 @@
 <div class="container">
 
     <ol class="breadcrumb">
-        <li><a href="/">Home</a></li><li><a href="/funding/">Funding</a></li></ol>
+        <li><a href="/">Home</a></li><li><a href="/grants/">Grants & Projects</a></li></ol>
 
     <h1>
-        Estimativa da direção da magnetização total de corpos 3D aproximadamente esféricos
+        Camada equivalente aplicada ao processamento de dados magnéticos
     </h1>
+        <h1>
+            <i>Equivalent layer applied to magnetic data processing</i>
+        </h1>
         <p class="pub-date-author">
-                (2014)
+                (2018)
                             <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>
         </p>
     <hr>
@@ -80,7 +83,7 @@
                     <li>
                             <i class="fa-li fa fa-calendar fa-fw" title="Duration"></i>
 
-                        2014-2017
+                        2018-2021
                     </li>
                     <li>
                             <i class="fa-li fa fa-university fa-fw" title="Institution"></i>
@@ -88,63 +91,78 @@
                         Observatório Nacional
                     </li>
                     <li>
-                            <i class="fa-li fa fa-money fa-fw" title="Funding agency"></i>
+                            <i class="fa-li fa fa-building fa-fw" title="Funding agency"></i>
 
                         Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)
                     </li>
                     <li>
                             <i class="fa-li fa fa-pencil fa-fw" title="Grant name"></i>
 
-                        MCTI/CNPQ/Universal 14/2014
+                        CNPq N<sup>o</sup> 12/2017 - Bolsas de Produtividade em Pesquisa - PQ
                     </li>
                     <li>
                             <i class="fa-li fa fa-barcode fa-fw" title="Grant ID"></i>
 
-                        445752/2014-9
+                        308945/2017-4
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-money fa-fw" title="Amount"></i>
+
+                        R$ 39,600.00
                     </li>
         </ul>
 
 
 
 
-            <h2>Related research</h2>
-
-
-                <h3>Papers</h3>
-
-                <ul class="fa-ul">
-                    <li>
-                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
-                        <a href="/papers/paper-mag-dir-2015.html">Estimation of the total magnetization direction of approximately spherical bodies</a>
-                    </li>
-                </ul>
-
-
-
-
-                <h3>Theses</h3>
-
-                <ul class="fa-ul">
-                    <li>
-                        <i class="fa-li fa fa-book fa-fw"></i>
-                        <a href="/thesis/daiana-msc.html">Estimativa do vetor de magnetização total de corpos aproximadamente esféricos</a>
-                    </li>
-                </ul>
-
 
     </div>
 
 
     <div class="col-md-8">
-            <h2 id="description">Description</h2>
-<p>Este projeto concorreu no edital MCTI/CNPQ/Universal 14/2014 - Faixa A - até R$
-30.000,00 e teve a finalidade de desenvolver uma metodologia computacionalmente
-eficiente para estimar a direção da magnetização total de corpos aproximadamente
-esféricos a partir da inversão da anomalia de campo total. A metodologia desenvolvida
-auxilia a interpretação de dados provenientes de levantamentos
-magnetométricos que, em geral, são utilizados para definir alvos exploratórios e
-minimizar os elevados custos envolvidos na alocação de furos de sondagem para a
-exploração de recursos minerais.</p>
+            <h2 id="descricao">Descrição</h2>
+<p>Este projeto propõe o desenvolvimento de um método computacionalmente eficiente
+para o processamento de grandes conjuntos de dados magnetométricos usando a técnica
+da camada equivalente. A princípio, a camada será formada por dipolos, que estarão
+dispostos sobre uma superfície plana localizada abaixo dos pontos de observação.
+O método estimará a intensidade do momento magnético de cada dipolo sem resolver
+sistemas lineares de larga escala, que é atualmente a principal desvantagem da técnica
+da camada equivalente. O método a ser desenvolvido ao longo deste projeto poderá
+reduzir consideravelmente o tempo de processamento de grandes conjuntos de dados
+magnetométricos provenientes de aerolevantamentos, por exemplo. Utilizando a distribuição
+de momentos magnéticos estimada de forma iterativa, será possível interpolar, calcular
+gradientes espaciais e calcular a continuação para cima (ou para baixo) de grandes conjuntos
+de dados magnetométricos. O método será aplicado a dados sintéticos provenientes de
+simulações numéricas e também a dados reais. Os resultados obtidos ao longo deste projeto
+de pesquisa serão submetidos para publicação em revistas científicas com ampla divulgação
+internacional e divulgados em Congressos nacionais e internacionais nas áreas de
+Geofísica e áreas afins. Adicionalmente, todos os códigos computacionais desenvolvidos
+ao longo deste projeto serão disponibilizados em repositórios online e de acesso livre.
+Este projeto será desenvolvido em conjunto com estudantes de mestrado e doutorado
+regularmente matriculados sob a minha orientação no Programa de Pós-Graduação em
+Geofísica do Observatório Nacional, o que possibilitará a formação de recursos
+humanos.</p>
+<h2 id="description">Description</h2>
+<p>This project proposes the development of a computationally efficient method for
+processing large magnetometric datasets using the equivalent layer technique.
+In principle, the layer will consist of dipoles, which will be arranged on a
+flat surface located below the observation points. The method will estimate the
+intensity of the magnetic moment of each dipole without solving large-scale
+linear systems, which is currently the main disadvantage of the equivalent layer
+technique. The method to be developed during this project could considerably
+reduce the processing time of large sets of magnetometric data from aeroplanes,
+for example. Using the estimated distribution of magnetic moments, it will be
+possible to interpolate, calculate spatial gradients and calculate the upwards
+(or downwards) continuation of large magnetometric datasets. The method shall
+be applied to synthetic data from numerical simulations and also to field data.
+The results obtained throughout this research project will be submitted for
+publication in scientific journals with wide international dissemination and
+disseminated in national and international Congresses in the areas of Geophysics
+and related areas. Additionally, all computer codes developed during this
+project will be available in online repositories with free access. This project
+will be developed together with MSc and PhD students regularly enrolled under
+my guidance in the Graduate Program in Geophysics of the National Observatory,
+which will enable the training of human resources.</p>
     </div>
 </div>
 

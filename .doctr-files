@@ -33,9 +33,11 @@
 ./css/sourcesanspro/SourceSansPro-Regular.ttf
 ./css/sourcesanspro/sourcesanspro.css
 ./css/style.css
-./funding/cnpq-universal-2014-oliveirajr.html
-./funding/faperj-inst-2014-oliveirajr.html
-./funding/index.html
+./grants/cnpq-pq-2018-oliveirajr.html
+./grants/cnpq-universal-2014-oliveirajr.html
+./grants/faperj-inst-2014-oliveirajr.html
+./grants/faperj-jcne-2018-oliveirajr.html
+./grants/index.html
 ./images/carousel/fast-mag-inv-relief.jpg
 ./images/carousel/hall-sensor-materials.jpg
 ./images/carousel/isostatic-grav-2D.jpg
@@ -43,9 +45,9 @@
 ./images/carousel/tesseroid-variable-density.jpg
 ./images/difference-disturbance-free-air.png
 ./images/favicon.png
-./images/funding/capes.svg
-./images/funding/cnpq.svg
-./images/funding/faperj.svg
+./images/grants/capes.svg
+./images/grants/cnpq.svg
+./images/grants/faperj.svg
 ./images/monogenic-signal-python.jpg
 ./images/nmo-tutorial-application.png
 ./images/paper-planting-anomalous-densities-2012.jpg
