@@ -85,6 +85,7 @@
 ./js/jquery.min.js
 ./papers/fast-mag-inv-relief.html
 ./papers/fast-tesseroid-inversion-moon.html
+./papers/gradient-filters-cob.html
 ./papers/grav-isostatic-2D.html
 ./papers/index.html
 ./papers/magnetic-ellipsoid.html
@@ -105,20 +106,22 @@
 ./papers/paper-radial3d-gradients-2013.html
 ./papers/paper-tesseroids-2016.html
 ./papers/paper-tle-euler-tutorial-2014.html
+./papers/reliable-euler-estimates.html
 ./papers/sensor-hall-materials.html
 ./papers/struct-index-euler.html
 ./papers/tesseroid-variable-density.html
 ./papers/use-the-disturbance.html
 ./papers/verde.html
 ./pdf/andre-msc.pdf
+./pdf/andre-phd.pdf
 ./pdf/carlos-phd.pdf
 ./pdf/daiana-msc.pdf
-./pdf/hallam-phd.pdf
 ./pdf/kristoffer-phd.pdf
 ./pdf/magnetic-ellipsoid.pdf
 ./pdf/marcela-msc.pdf
 ./pdf/marlon-msc.pdf
 ./pdf/melo-msc.pdf
+./pdf/melo-phd.pdf
 ./pdf/monogenic-signal-python.pdf
 ./pdf/oliveira-jr-msc.pdf
 ./pdf/oliveira-jr-phd.pdf
@@ -163,6 +166,7 @@
 ./people/victortxa.html
 ./people/vital.html
 ./thesis/andre-msc.html
+./thesis/andre-phd.html
 ./thesis/carlos-phd.html
 ./thesis/daiana-msc.html
 ./thesis/index.html
@@ -170,6 +174,7 @@
 ./thesis/marcela-msc.html
 ./thesis/marlon-msc.html
 ./thesis/melo-msc.html
+./thesis/melo-phd.html
 ./thesis/oliveira-jr-msc.html
 ./thesis/oliveira-jr-phd.html
 ./thesis/siqueira-phd.html
