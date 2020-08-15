@@ -85,6 +85,7 @@
 ./js/jquery.min.js
 ./papers/fast-mag-inv-relief.html
 ./papers/fast-tesseroid-inversion-moon.html
+./papers/generalized-positivity.html
 ./papers/gradient-filters-cob.html
 ./papers/grav-isostatic-2D.html
 ./papers/index.html
