@@ -83,6 +83,7 @@
 ./index.html
 ./js/bootstrap.min.js
 ./js/jquery.min.js
+./papers/convolutional-eql-grav.html
 ./papers/fast-mag-inv-relief.html
 ./papers/fast-tesseroid-inversion-moon.html
 ./papers/generalized-positivity.html
@@ -148,6 +149,7 @@
 ./people/barbosa.html
 ./people/carlos.html
 ./people/daiana.html
+./people/edson.html
 ./people/gatts.html
 ./people/index.html
 ./people/kristoffer.html
