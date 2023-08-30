@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="authors" content="{'carla': 'Carla Braitenberg', 'jbsilva': 'João B. C. Silva', 'elder': 'E. Yokoyama', 'acbruno': 'A. C. Bruno', 'joaomanoel': 'J. M. B Pereira', 'agustina': 'Agustina Pesce', 'mario': 'Mario E. Gimenez', 'jaraujo': 'J. Araujo', 'afsantos': 'A. F. Santos', 'cluz-lima': 'C. Luz-Lima', 'lafmendoza': 'L. A. F. Mendoza', 'guangdong': 'Guangdong Zhao', 'bo': 'Bo Chen', 'jliu': 'Jianxin Liu', 'mkaban': 'Mikhail K. Kaban', 'lchen': 'Longwei Chen', 'rguo': 'Rongwen Guo', 'aapcorrea': 'A. A. P. Correa', 'macpacheco': 'M. A. C. Pacheco', 'fgosoriog': 'F. G. Osorio G.', 'britoge': 'G. E. Brito', 'wwraraujo': 'W. W. R. Araujo', 'tahir': 'Tahir', 'tdelrosso': 'T. Del Rosso', 'ved': 'Ved P. Maurya', 'sfontes': 'Sergio L. Fontes', 'laterra': 'Emanuele F. La Terra'}"/>
+            <meta name="keywords" content="science, geoscience, geophysics, software, open-source"/>
+    <title>    Inversao magnética 3D para estimar a distribuiçao de magnetização de uma amostra de rocha | PINGA lab
+</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Include the Source Sans Pro Google fonts CSS -->
+    <link rel="stylesheet" href="/css/sourcesanspro/sourcesanspro.css">
+    <!--Include the Font Awesome and Academicons CSS-->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css">
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <!-- Include MathJax from the CDN -->
+    <script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <!-- Plausible Analytics -->
+    <script defer data-domain="pinga-lab.org" src="https://plausible.io/js/script.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid menu text-center">
+    <div class="col-md-3 menu-brand">
+        <a href="/">
+                <img src="/images/pinga-logo.png"></img>
+            <strong>PINGA</strong>lab
+        </a>
+    </div>
+    <div class="col-md-6 menu-list">
+        <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="/papers">Papers</a></li>
+                <li><a href="/projects">Projects & Grants</a></li>
+                <li><a href="/thesis">Theses</a></li>
+                <li><a href="https://github.com/pinga-lab"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+    </div>
+</div>
+
+<div class="container">
+
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li><li><a href="/thesis/">Theses defended</a></li></ol>
+
+    <h1>
+            <em>MSc thesis</em>:
+        Inversao magnética 3D para estimar a distribuiçao de magnetização de uma amostra de rocha
+    </h1>
+        <p class="pub-date-author">
+                (2016)
+                            <a href="/people/andre.html">André L. A. Reis</a>
+        </p>
+    <hr>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+
+        <h2>Info</h2>
+
+        <ul class="fa-ul">
+                    <li>
+                            <i class="fa-li fa fa-calendar fa-fw" title="Duration"></i>
+
+                        2014-2016
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-university fa-fw" title="Institution"></i>
+
+                        Observatório Nacional
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-graduation-cap fa-fw" title="Advisor"></i>
+
+                        Advisor:                 <a href="/people/oliveira-jr.html">Vanderlei C. Oliveira Jr.</a>
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-info-circle fa-fw" title="Additional information"></i>
+
+                        More info:
+                        <a href="https://sucupira.capes.gov.br/sucupira/public/consultas/coleta/trabalhoConclusao/viewTrabalhoConclusao.jsf?popup=true&id_trabalho=3508664">Sucupira platform</a>
+                    </li>
+                    <li>
+                            <i class="fa-li fa fa-file-pdf-o fa-fw" title="Paper PDF"></i>
+
+                        PDF:
+                        <a href="/pdf/andre-msc.pdf" target="_blank" type="application/pdf">andre-msc.pdf</a>
+                    </li>
+        </ul>
+
+
+
+
+            <h2>Related research</h2>
+
+
+                <h3>Papers</h3>
+
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fa-li fa fa-file-text-o fa-fw"></i>
+                        <a href="/papers/paper-magnetization-rock-sample-2016.html">Estimating the magnetization distribution within rectangular rock samples</a>
+                    </li>
+                </ul>
+
+
+
+
+    </div>
+
+
+    <div class="col-md-8">
+            <h2 id="abstract">Abstract</h2>
+<p>Over the last decades, scanning magnetic microscopy techniques have
+been increasingly used in paleomagnetism and rock magnetism. Different
+from standard paleomagnetic magnetometers, scanning magnetic microscopes
+produce high-resolution maps of the vertical component of the magnetic
+induction field on a plane located over the sample. These high-resolution
+magnetic maps can be used for estimating the magnetization distribution
+within a rock sample by inversion. Previous studies have estimated the
+magnetization distribution within rock samples by inverting the magnetic
+data measured on a plane above the sample. Here we present a new spacial
+domain method for inverting the magnetic induction measured on four planes
+around the sample in order to retrieve its internal magnetization
+distribution. We have presumed that internal magnetization distribution
+of the sample varies along one of its axes. Our method approximates the
+sample geometry by an interpretation model composed of a one-dimensional
+array of juxtaposed rectangular prisms with uniform magnetization. The
+Cartesian components of the magnetization vector within each rectangular
+prism are the parameters to be estimated by solving linear inverse problem.
+Tests with synthetic data show the performance of our method in retrieving
+complex magnetization distribution even in the presence of magnetization
+heterogeneities. We have also applied our method to invert experimentally
+measured magnetic data produced by a highly-magnetized synthetic sample that
+was manufacturated in laboratory. The results show that, even in the
+presence of apparent position noise, our method was able to retrieve
+magnetization distribuition consistent with the anhysteretic remanence
+magnetization induced in the sample.</p>
+    </div>
+</div>
+
+
+</div>
+
+
+    <footer>
+<div class="container">
+
+    <p class="text-center">
+        Hosted on <a href="https://pages.github.com/">Github Pages</a>.
+        The source code to build this site is available at
+        <a href="https://github.com/pinga-lab/website">pinga-lab/website</a>.
+        </br>
+        Built using <a href="http://urubu.jandecaluwe.com/">Urubu</a>
+        and <a href="http://getbootstrap.com/">Bootstrap</a> with
+        icons by <a href="http://fontawesome.io/">Font Awesome</a>
+        and <a href="http://jpswalsh.github.io/academicons/">Academicons</a>.
+        </br>
+        Except were noted, all content is available under the
+        <a rel="license"
+           href="http://creativecommons.org/licenses/by/4.0/">CC-BY License</a>.
+        </br>
+    </p>
+
+</div>    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- ================================================== -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- For the altmetric badge in articles -->
+    <script type='text/javascript'
+     src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+</body>
+</html>
